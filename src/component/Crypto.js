@@ -12,6 +12,7 @@ async function getFact(setData){
 }
 
 function Crypto(){
+    const [list, setList] = useState([<StockItem name="BTC"/>, <StockItem name="ETH" />, <StockItem name="DOGE"/>]);
     const [data, setData] = useState("1");
     useEffect(()=>{
         getFact(setData);
@@ -19,10 +20,9 @@ function Crypto(){
 
     return(
         
-        <>
-            
-            <StockItem />
-        </>
+        <div class="crypto-list">
+           {list}
+        </div>
     );
 
 
