@@ -4,7 +4,7 @@ import News from './component/News';
 import Crypto from './component/Crypto';
 import StockItem from '/Users/stevenshi/cryptotrade/src/component/StockItem.js';
 
-import {Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import InfoPage from './component/InfoPage';
 

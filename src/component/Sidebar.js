@@ -8,6 +8,7 @@ function Sidebar(){
             <Link to="/News"> News </Link>
             <br />
             <Link to="/Crypto"> Crypto</Link>
+            
         </div>  
     );
 }
